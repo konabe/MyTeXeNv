@@ -1,0 +1,13 @@
+% Ryota KONABE
+
+% 正規分布の式を出力
+\newcommand*{\Normal}[3]{
+	\frac{1}{\sqrt{2\pi {#3}^2}}
+	\exp{ \{
+	-\frac{
+		(#1 - #2)^2
+	}{
+		2 #3
+	}
+	\} }
+}
